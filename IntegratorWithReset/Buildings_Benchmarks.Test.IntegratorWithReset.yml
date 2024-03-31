@@ -1,0 +1,85 @@
+Optimica_CVode:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.0009144999999999848
+  - 0.005306299999999986
+  - 0.5878821000000001
+  - 536.8290777
+  - 1895.8633171
+  tot_times:
+  - 0.381675
+  - 0.42914599999999936
+  - 1.1023096000000017
+  - 538.1346746
+  - 1897.7985488999998
+Optimica_Radau5ODE:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.001587800000000028
+  - 0.0033675000000000233
+  - 0.05805379999999999
+  - 11.2666717
+  - 29.596221999999997
+  tot_times:
+  - 0.42662129999999987
+  - 0.40539150000000035
+  - 0.5209480000000006
+  - 12.396153199999958
+  - 31.11735349999981
+QSS_QSS2:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.0
+  - 0.015625
+  - 0.015625
+  - 0.390625
+  - 0.640625
+  tot_times:
+  - 0.23206019999999938
+  - 0.22811819999999905
+  - 0.49015870000000206
+  - 5.814245000000028
+  - 11.502973199999815
+QSS_QSS3:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.0
+  - 0.0
+  - 0.03125
+  - 0.40625
+  - 0.640625
+  tot_times:
+  - 0.1510391000000002
+  - 0.17315910000000123
+  - 0.528108600000003
+  - 7.667219999999929
+  - 15.959572699999626
+build:
+  parameter:
+    name: n
+    values: 1, 10, 100, 1000, 1500
+name: Buildings_Benchmarks.Test.IntegratorWithReset
+simulation:
+  default:
+    stopTime: 1
+    tolerance: 1E-6

@@ -1,0 +1,111 @@
+Optimica_CVode:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.014088699999999954
+  - 0.06090609999999996
+  - 0.11781679999999994
+  - 0.2789100000000002
+  - 0.3762502999999997
+  - 0.5439962000000005
+  - 0.8171749999999998
+  tot_times:
+  - 0.81846
+  - 1.3630600999999984
+  - 2.239089699999994
+  - 3.880909299999985
+  - 4.76554329999999
+  - 6.2040825000001405
+  - 7.985177399999884
+Optimica_Radau5ODE:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.01687380000000005
+  - 0.2937445999999999
+  - 1.0922539999999996
+  - 5.059006200000001
+  - 14.648131499999998
+  - 27.742926600000004
+  - 54.6115304
+  tot_times:
+  - 0.7996253000000006
+  - 1.648867200000005
+  - 3.195611999999983
+  - 8.598722799999962
+  - 19.113349200000016
+  - 33.64248950000001
+  - 61.570878900000025
+QSS_QSS2:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 1.640625
+  - 13.234375
+  - 36.140625
+  - 157.171875
+  - 339.640625
+  - 622.234375
+  - 886.015625
+  tot_times:
+  - 2.4632134000000008
+  - 16.44710710000001
+  - 48.052425700000015
+  - 175.84531989999994
+  - 393.6056502000001
+  - 744.5477370999997
+  - 1093.7318400999998
+QSS_QSS3:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.09375
+  - 0.9375
+  - 3.046875
+  - 10.421875
+  - 19.6875
+  - 33.546875
+  - 40.75
+  tot_times:
+  - 0.751794499999999
+  - 3.403984600000001
+  - 8.652040700000043
+  - 30.577567499999986
+  - 80.11228669999991
+  - 178.57065469999998
+  - 181.1174207999993
+build:
+  parameter:
+    name: n
+    values: 1, 5, 10, 20, 30, 40, 50
+name: Buildings_Benchmarks.Cases.DataCenterContinuousTimeControl
+simulation:
+  QSS:
+    zFac: 100
+  default:
+    stopTime: 10
+    tolerance: 1E-6

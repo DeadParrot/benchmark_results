@@ -1,0 +1,96 @@
+Optimica_CVode:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.0006292999999999438
+  - 0.0010349000000000053
+  - 0.002128999999999992
+  - 0.022971399999999975
+  - 1.3835152
+  - 202.39069340000003
+  tot_times:
+  - 0.8597481999999999
+  - 0.4810616000000003
+  - 0.39481769999999905
+  - 0.5446367999999993
+  - 2.887686500000001
+  - 268.09873960000004
+Optimica_Radau5ODE:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.0006470000000000087
+  - 0.0003923000000000121
+  - 0.0009753000000000123
+  - 0.04552129999999999
+  - 7.3552427
+  - 0.0
+  tot_times:
+  - 0.4424901000000001
+  - 0.4096934000000001
+  - 0.3939345000000003
+  - 0.5360070999999991
+  - 8.337230500000004
+  - 19.48022500000002
+QSS_QSS2:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.0
+  - 0.0
+  - 0.015625
+  - 0.15625
+  - 2.765625
+  - 40.484375
+  tot_times:
+  - 0.23306380000000004
+  - 0.21210980000000035
+  - 0.18540240000000097
+  - 0.5115672999999994
+  - 4.313676899999997
+  - 93.90310529999999
+QSS_QSS3:
+  exception:
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  - No exception.
+  sim_times:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.015625
+  - 0.21875
+  - 3.59375
+  tot_times:
+  - 0.13277950000000072
+  - 0.19447590000000048
+  - 0.1918413000000001
+  - 0.33981939999999966
+  - 2.2235601000000003
+  - 123.0292171000001
+build:
+  parameter:
+    name: n
+    values: 1, 10, 100, 1000, 10000, 100000
+name: Buildings_Benchmarks.Test.Tiny
+simulation:
+  default:
+    tolerance: 1E-6
