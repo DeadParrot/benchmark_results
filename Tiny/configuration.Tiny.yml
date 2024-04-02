@@ -1,0 +1,25 @@
+models:
+  - name: Buildings_Benchmarks.Test.Tiny
+    build:
+      parameter:
+        name: n
+        values: 1, 10, 100, 1000, 10000, 100000
+    simulation:
+      default:
+        stopTime: 1
+        tolerance: 1E-6
+
+tools:
+  Optimica:
+    - CVode
+    - Radau5ODE
+  QSS:
+    - QSS2
+    - QSS3
+
+resources:
+  - url: https://github.com/lbl-srg/modelica-buildings/releases/download/v10.0.0/Buildings-v10.0.0.zip
+    type: Modelica Library
+    src: Buildings 10.0.0
+    # dst: /tmp/tmp-modelica-solver-benchmarks-inst/Buildings 10.0.0
+    dst: ../Buildings 10.0.0

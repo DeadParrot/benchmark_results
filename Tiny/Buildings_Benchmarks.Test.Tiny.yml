@@ -93,4 +93,5 @@ build:
 name: Buildings_Benchmarks.Test.Tiny
 simulation:
   default:
+    stopTime: 1
     tolerance: 1E-6
