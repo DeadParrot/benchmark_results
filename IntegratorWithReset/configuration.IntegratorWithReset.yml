@@ -3,10 +3,10 @@ models:
     build:
       parameter:
         name: n
-        values: 1, 10, 100, 1000, 1500
+        values: 1, 10, 100, 1000
     simulation:
       default:
-        stopTime: 1
+        stopTime: 100
         tolerance: 1E-6
 
 tools:
@@ -23,7 +23,3 @@ resources:
     src: Buildings 10.0.0
     # dst: /tmp/tmp-modelica-solver-benchmarks-inst/Buildings 10.0.0
     dst: ../Buildings 10.0.0
-
-# Notes
-#  No derivative dependencies appear in the <Derivatives> section: CVode assumes complete dependencies
-#  QSS gets derivative dependencies in the <VendorAnnotations> <Dependencies> section so it gets an advantage over PyFMI
