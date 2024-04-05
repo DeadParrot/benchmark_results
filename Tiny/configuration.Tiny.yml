@@ -6,7 +6,7 @@ models:
         values: 1, 10, 100, 1000, 10000, 100000
     simulation:
       default:
-        stopTime: 1
+        stopTime: 100
         tolerance: 1E-6
 
 tools:
